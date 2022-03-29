@@ -12,7 +12,7 @@
 
 ## Exemplo:
 
-```
+```js
 <script src="https://wapi.samierp.com.br/js/meu-boleto/index.js"></script>
 <script>
 
