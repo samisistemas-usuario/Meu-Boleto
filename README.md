@@ -1,16 +1,20 @@
 # Meu Boleto
+Como adicionar um botão flutuante de chat para que o usuário consiga retirar boleto em seu site
 
-## Como adicionar um botão flutuante de chat para que o usuário consiga retirar boleto em seu site
 
-## 1º - Solicitar credenciais de acesso
 
-### Solicitar à Sami as seguintes credenciais de acesso: ID usuário, Id parceiro e sigla.
 
-## 2º - Adicionar Script de configuração para o botão flutuante.
+### **1º - Solicitar credenciais de acesso**
 
-### Inserir, antes do fechamento da tag BODY do site, a chamada para as configurações.
+Solicitar à Sami as seguintes credenciais de acesso: ID usuário, Id parceiro e sigla.
 
-## Exemplo:
+
+### **2º - Adicionar Script de configuração para o botão flutuante.**
+
+Inserir, antes do fechamento da tag BODY do site, a chamada para as configurações.
+
+
+### Exemplo:
 
 ```js
 <script src="https://wapi.samierp.com.br/js/meu-boleto/index.js"></script>
