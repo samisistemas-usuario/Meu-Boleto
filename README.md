@@ -1,5 +1,5 @@
 # Meu Boleto
-Como adicionar um botão flutuante de chat para que o usuário consiga retirar boleto em seu site
+Como adicionar um botão flutuante de chat para que o usuário consiga retirar boleto em seu site.
 
 
 
