@@ -25,7 +25,7 @@ Inserir, antes do fechamento da tag BODY do site, a chamada para as configuraç�
                 'usuario' : 'inserir aqui a ID Usuario',
                 'parceiro' : 'inserir aqui a ID Parceiro',
                 'sigla' : 'inserir aqui a sigla',
-                'senha' : true, // Informe false caso não seja preciso solicitar senha ao usuário
+                'senha' : true // Informe false caso não seja preciso solicitar senha ao usuário
             },
             'botao' : {
                 'cor' : 'rgb(0 5 199)', 
