@@ -46,7 +46,7 @@ Inserir, antes do fechamento da tag BODY do site, a chamada para as configura√ß√
 
 #### **Dados**
 ```php
-URL: https://wapi.samierp.com.br/KEY/financeiro/boleto
+URL: https://wapi.samierp.com.br/IdParceiro/financeiro/boleto
 ```
 
 ##### **Header**
