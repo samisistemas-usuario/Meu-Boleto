@@ -39,3 +39,28 @@ Inserir, antes do fechamento da tag BODY do site, a chamada para as configura√ß√
 
 </script>
 ```
+
+
+
+### Exemplo:
+
+#### **Dados**
+```php
+SIGLA: Solicitar
+KEY: Solicitar
+URL: https://wapi.samierp.com.br/KEY/financeiro/boleto
+```
+
+##### **Header**
+```json
+Content-Type: application/json
+```
+
+```json
+{ 
+        "sigla":"SIGLA",
+        "cpf_cnpj":"12345678900",
+        "validar_senha":true,
+        "senha":"012345"
+}
+```
