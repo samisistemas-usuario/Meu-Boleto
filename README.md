@@ -6,7 +6,7 @@ Como adicionar um botão flutuante de chat para que o usuário consiga retirar b
 
 ### **1º - Solicitar credenciais de acesso**
 
-Solicitar à Sami as seguintes credenciais de acesso: ID usuário, Id parceiro e sigla.
+Solicitar à Sami as seguintes credenciais de acesso: IDUsuario, IdParceiro e SIGLA.
 
 
 ### **2º - Adicionar Script de configuração para o botão flutuante.**
@@ -22,9 +22,9 @@ Inserir, antes do fechamento da tag BODY do site, a chamada para as configuraç�
 
         meuBoleto({
             'config' : {
-                'usuario' : 'inserir aqui a ID Usuario',
-                'parceiro' : 'inserir aqui a ID Parceiro',
-                'sigla' : 'inserir aqui a sigla',
+                'usuario' : 'inserir aqui a IDUsuario',
+                'parceiro' : 'inserir aqui a IdParceiro',
+                'sigla' : 'inserir aqui a SIGLA',
                 'senha' : true // Informe false caso não seja preciso solicitar senha ao usuário
             },
             'botao' : {
@@ -42,12 +42,10 @@ Inserir, antes do fechamento da tag BODY do site, a chamada para as configuraç�
 
 
 
-### Exemplo:
+### Recuperar Link de Boleto via CPF/CNPJ:
 
 #### **Dados**
 ```php
-SIGLA: Solicitar
-KEY: Solicitar
 URL: https://wapi.samierp.com.br/KEY/financeiro/boleto
 ```
 
@@ -56,6 +54,7 @@ URL: https://wapi.samierp.com.br/KEY/financeiro/boleto
 Content-Type: application/json
 ```
 
+##### **BODY**
 ```json
 { 
         "sigla":"SIGLA",
