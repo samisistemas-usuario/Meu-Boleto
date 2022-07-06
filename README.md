@@ -24,7 +24,7 @@ URL: https://wapi.samierp.com.br/IdParceiro/financeiro/boleto
 Content-Type: application/json
 ```
 
-##### **BODY**
+##### **Body**
 ```json
 { 
         "sigla":"SIGLA",
