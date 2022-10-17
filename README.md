@@ -54,11 +54,13 @@ Como adicionar um botão flutuante de chat para que o usuário consiga recuperar
             },
             'botao' : {
                 'cor' : 'rgb(0 5 199)', 
-                'titulo' : 'Meu Boleto'
+                'titulo' : 'Meu Boleto',
+                'posicao': 'left', // left/right
             },
             'chat' : {
                 'cor' : 'rgb(0 5 199)',
-                'titulo' : 'Meu Boleto'
+                'titulo' : 'Meu Boleto',
+                'posicao': 'left', // left/right
             }
         });
 
